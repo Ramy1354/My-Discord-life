@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh; 
+  /* Abyssal green-on-blue void */
+  background: radial-gradient(circle at top, #072e33 0%, #021018 50%, #000000 100%);
+  color: #e0f2f1; /* Soft minty-white for readable text */
+  overflow-x: hidden; 
+}
+
+.Header {
+  color: #00ffd5; /* Bright neon teal */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 12px rgba(0, 255, 213, 0.4); /* Adds a subtle fancy glow */
+  margin-top: 40px;
+}
+
+.Paragraph {
+  color: #b2dfdb; /* Slightly dimmed teal-white to contrast the header */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+#nav-bar {
+  /* Dark teal "glass" effect */
+  background: rgba(2, 33, 40, 0.7); 
+  backdrop-filter: blur(8px); /* Blurs the background behind the nav */
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 255, 213, 0.2); /* Thin glowing bottom edge */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.nav-btn {
+  color: #00ffd5;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease; /* Makes the hover effect smooth instead of instant */
+}
+
+.nav-btn:hover {
+  background-color: rgba(0, 255, 213, 0.1); /* Faint teal highlight */
+  border: 1px solid #00ffd5; /* Teal border appears */
+  box-shadow: 0 0 15px rgba(0, 255, 213, 0.3); /* Button glows on hover */
+  color: #ffffff; /* Text turns pure white */
+}
