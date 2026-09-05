@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>KVOX</title>
+  <rect width="64" height="64" rx="14" fill="#0b0b0f"/>
+  <path d="M17 13h9v15l13-15h11L35 30l16 21H39L26 34v17h-9z" fill="#f5f5f7"/>
+  <circle cx="49" cy="15" r="4" fill="#7c3aed"/>
+</svg>
